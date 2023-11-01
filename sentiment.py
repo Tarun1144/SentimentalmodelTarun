@@ -13,7 +13,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 nltk.download('vader_lexicon')
 
 sia = SentimentIntensityAnalyzer()
-
+ 
 text = "I love this product. It's amazing!"
 
 sentiment_scores = sia.polarity_scores(text)
